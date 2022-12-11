@@ -17,16 +17,19 @@ int main(void)
 		for (tens = '0'; tens <= '9'; tens++)
 		{
 			for (ones = '0'; ones <= '9'; ones++)											{
-																			if (!((ones == tens) || (tens == hundreds) || 
-																						(tens > ones) || (hundreds > tens))) /*eliminates repitition*/
-																																		{
-																																			putchar(hundreds);
-					putchar(tens);														putchar(ones);																													if (!(ones == '9' && hundreds == '7' &&														tens == '8')) /*adds commas and spaces*/							{
-																																				putchar(',');
+				if (!((ones == tens) || (tens == hundreds) ||
+							 (tens > ones) || (hundreds > tens))) /*eliminates repitition*/
+				{
+					putchar(hundreds);
+					putchar(tens);
+					putchar(ones);
+					if (!(ones == '9' && hundreds == '7' &&
+								tens == '8')) /*adds commas and spaces*/
+					{
+						putchar(',');
 						putchar(' ');
 					}
-																																		}
-			
+				}
 			}
 		}
 	}
