@@ -20,7 +20,6 @@ int main(void)
 			{
 				putchar(tens);
 				putchar(ones);
-				
 				if (!(ones == '9' && tens == '8'))/* put comms and spaces*/
 				{
 					putchar(',');
@@ -30,7 +29,6 @@ int main(void)
 		}
 	}
 
-	putchar('\n');
-	
+	putchar('\n');	
 	return (0);
 }
