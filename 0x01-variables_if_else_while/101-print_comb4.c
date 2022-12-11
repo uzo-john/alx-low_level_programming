@@ -13,9 +13,9 @@ int main(void)
 
 	for (hundreds = '0'; hundreds <= '9'; hundreds++)
 	{
-		for (tens = '0'; hundreds <= '9'; tens++)
+		for (tens = '0'; tens <= '9'; tens++)
 		{
-			for (ones = '0'; hundreds <= '9'; tens++)
+			for (ones = '0'; ones <= '9'; tens++)
 			{
 				if (!((ones == tens) || (tens == hundreds) ||
 							(tens > ones) || (hundreds > tens))) /* eliminates repitition*/
@@ -28,7 +28,7 @@ int main(void)
 								tens == '8')) /*add commas and spaces*/
 					{
 						putchar(',');
-						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
