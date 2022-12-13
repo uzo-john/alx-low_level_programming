@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * print _last_digit - print the last digit of a number
+ * print_last_digit - print the last digit of a number
  * @n: the in a question
  * Return: value of last digit
  */
 
-int print_last_digit(int)
-
+int print_last_digit(int n)
 {
 	int last_digit = n % 10;
 
