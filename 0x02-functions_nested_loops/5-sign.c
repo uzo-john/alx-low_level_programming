@@ -10,7 +10,7 @@ int print_sign(int n)
 {
 	int work;
 
-	if (n > o)
+	if (n > 0)
 	{
 		work = 1;
 		_putchar('+');
@@ -18,7 +18,7 @@ int print_sign(int n)
 	else if (n == 0)
 	{
 		work = 0;
-		_putchar('0')
+		_putchar('0');
 	}
 	else
 	{
