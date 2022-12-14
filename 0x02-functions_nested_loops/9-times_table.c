@@ -5,43 +5,26 @@
  */
 void times_table(void)
 {
-	int a, b, c;
+	int a, b, op;
 
 	for (a = 0; a <= 9; a++)
 	{
-		for (b = 0; b <= 9; b++)
+		_putchar(48);
+		for (b = 1; b <= 9; b++)
 		{
-			c = a * b;
-			if ((c / 10) == 0)
+			op = a * b;
+			_putchar(44);
+			_putchar(32);
+			if (op <= 9)
 			{
-
-				if (b == 0)
-				{
-					_putchar('0');
-				}
-
-				if (b != 0)
-				{
-					_putchar(' ');
-					_putchar((c % 10) + '0');
-				}
-				if (b < 9)
-																			{
-					_putchar(',');
-					_putchar(' ');
-																			}
-																		}
+				_putchar(32);
+				_putchar(op + 48);
+			}
 			else
-																		{
-																			_putchar((c / 10) + '0');
-																			_putchar((c % 10) + '0');
-																		}
-																			if (b < 9)
-																			{
-																				_putchar(',');
-																				_putchar(' ');
-																			}
-																		}
+			{
+				_putchar((op / 10) + 48);
+				_putchar((op % 10) + 48);
+			}
 		}
 		_putchar('\n');
 	}
