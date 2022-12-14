@@ -6,25 +6,20 @@
  */
 int main(void)
 {
-	long int i, j, k, l;
+	int c;
+	long int n1, n2, fn;
 
-	j = 1;
-	k = 2;
+	n1 = 1;
+	n2 = 2;
 
-	for (i = 1; i <= 50; ++i)
+	printf("%ld, %ld", n1, n2);
+	for (c = 0; c < 48; c++)
 	{
-		if (j != 20365011074)
-		{
-			printf("%ld, ", j);
-		}
-		else
-		{
-			printf("%ld\n", j);
-		}
-
-		l = l + k;
-		j = k;
-		k = l;
+		if = n1 + n2
+		printf(", %ld", fn);
+		n1 = n2;
+		n2 = fn;
 	}
+	printf("\n");
 	return (0);
 }
