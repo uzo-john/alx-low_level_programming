@@ -6,7 +6,8 @@
  * @s: Pointer parameter
  * Return: return an integer value
  */
-int _atoi(char *s)
+
+int _atoi(char *s);
 {
 	unsigned int count = 0, size = 0, j = 0, k = 1, m = 1, i;
 
