@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_dog - free memory of dog
+ * free_dog - frees dogs
  * @d: pointer to dog
  * Return: no return.
  */
