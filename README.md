@@ -1,1 +1,1 @@
-static library 
+more on singly linked lists
