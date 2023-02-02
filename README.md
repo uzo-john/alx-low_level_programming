@@ -1,1 +1,1 @@
-more on singly linked lists
+c programming manipulation
